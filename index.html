@@ -1,30 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Personal Budget App</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 40px;
-      background: #f5f5f5;
-      text-align: center;
-    }
-    h1 {
-      font-size: 40px;
-      color: #222;
-    }
-    p {
-      font-size: 20px;
-      color: #555;
-    }
-  </style>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Personal Expenses Tracking — Official App Website</title>
+  <meta name="description" content="Personal Expenses Tracking is a simple, private, offline-first iOS budgeting app for tracking expenses, categories, products, and vendors."/>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <h1>Personal Budget App</h1>
-  <p>Your official app website is live.</p>
-  <p>You can replace this with a full landing page anytime.</p>
+  <div class="container">
+    <nav class="nav">
+      <div class="brand">
+        <div class="logo">PET</div>
+        <div>Personal Expenses Tracking</div>
+      </div>
+      <div class="navlinks">
+        <a href="#features">Features</a>
+        <a href="#screenshots">Screenshots</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div>
+        <div class="kicker">iOS App • Offline-first • No ads</div>
+        <h1>Track spending fast. Understand your money clearly.</h1>
+        <p class="sub">
+          Personal Expenses Tracking helps you log purchases in seconds, organize them into categories and vendors,
+          and see where your money goes—without sharing your data.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="https://apps.apple.com/app/idXXXXXXXXXX" aria-label="Download on the App Store">
+            Download on the App Store
+          </a>
+          <a class="btn secondary" href="#features">See features</a>
+        </div>
+        <p class="small" style="margin-top:10px;">
+          Subscription is optional. Core tracking works without an account.
+        </p>
+      </div>
+      <div class="card" aria-label="Quick highlights">
+        <div class="badge">Private by design</div>
+        <h3 style="margin-top:10px;">Your data stays on your device</h3>
+        <p>
+          Transactions, categories, vendors, and products are stored locally. We don’t sell data, run ads,
+          or track you across apps. See the <a href="privacy.html">Privacy Policy</a>.
+        </p>
+        <div style="height:10px"></div>
+        <div class="badge">Premium themes & future features</div>
+        <p style="margin-top:8px;">
+          Premium unlocks extra themes and upcoming advanced tools. You can restore purchases anytime.
+        </p>
+      </div>
+    </header>
+
+    <section class="cards">
+      <div class="card">
+        <h3>Quick expense logging</h3>
+        <p>Add transactions in seconds with notes, vendors, categories, and multiple products.</p>
+      </div>
+      <div class="card">
+        <h3>Clear reports</h3>
+        <p>See weekly, monthly, and yearly summaries to spot trends and plan ahead.</p>
+      </div>
+      <div class="card">
+        <h3>Custom categories</h3>
+        <p>Create groups and subcategories that match the way you actually spend.</p>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <h2>Features</h2>
+      <div class="feature-list">
+        <div class="feature"><div class="dot"></div><div><strong>Transactions</strong><br/>Add, edit, search, and sort expenses. Attach multiple products to one purchase.</div></div>
+        <div class="feature"><div class="dot"></div><div><strong>Categories & groups</strong><br/>Build your own hierarchy with groups and subcategories.</div></div>
+        <div class="feature"><div class="dot"></div><div><strong>Vendors</strong><br/>Track where you spend and group vendors for cleaner reports.</div></div>
+        <div class="feature"><div class="dot"></div><div><strong>Products library</strong><br/>Save products for re-use when logging purchases.</div></div>
+        <div class="feature"><div class="dot"></div><div><strong>Barcode scanning (premium)</strong><br/>Scan product barcodes to speed up entry. Uses the camera only when you start scanning.</div></div>
+        <div class="feature"><div class="dot"></div><div><strong>Themes (premium)</strong><br/>Personalize the app look with multiple color themes.</div></div>
+      </div>
+    </section>
+
+    <section id="screenshots" class="section">
+      <h2>Screenshots</h2>
+      <p class="small">Replace the placeholders below with your real screenshots.</p>
+      <div class="screens">
+        <div class="screen">Dashboard screenshot</div>
+        <div class="screen">Transactions screenshot</div>
+        <div class="screen">Categories screenshot</div>
+        <div class="screen">Paywall screenshot</div>
+        <div class="screen">Barcode scan screenshot</div>
+        <div class="screen">Settings screenshot</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="callout">
+        <div class="dot"></div>
+        <div>
+          <h2 style="margin:0 0 6px;">Support</h2>
+          <p style="margin:0;">
+            Need help, found a bug, or have a feature idea? Email us at
+            <a href="mailto:support@personalexpensestracking.com">support@personalexpensestracking.com</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>© Personal Expenses Tracking • All rights reserved</div>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+        <a href="support.html">Support</a>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
